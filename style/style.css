@@ -183,6 +183,26 @@ footer p {
   text-align: center;
 }
 
+@media screen and (max-width: 992px) {
+  .card-section {
+    display: block;
+    grid-column: 1;
+    grid-template-columns: 1;
+  }
+  .card-section .card {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #skills p {
+    visibility: hidden;
+  }
+  #contact p {
+    font-size: 30px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   html {
     width: 100%;
@@ -212,5 +232,19 @@ footer p {
     display: block;
     grid-column: 1;
     grid-template-columns: 1;
+  }
+
+  .card-section div .card {
+    width: 10rem;
+    align-items: center;
+  }
+
+  #skills li {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  #contact p {
+    font-size: 20px;
   }
 }
