@@ -51,7 +51,7 @@ ul {
 }
 
 .jumbotron {
-  background-image: url("images/forest.jpg");
+  background-image: url("../images/forest.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 98vh;
